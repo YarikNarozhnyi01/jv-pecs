@@ -1,9 +1,9 @@
 package core.mate.academy.service;
 
-import core.mate.academy.model.Excavator;
+import java.util.List; // Повинен йти перед ArrayList
+import java.util.ArrayList; // Імпорти з java.util повинні йти в правильному порядку
+import core.mate.academy.model.Excavator; // Ваш клас імпортується після стандартних
 
-import java.util.List;
-import java.util.ArrayList;
 
 public class ExcavatorProducer implements MachineProducer<Excavator> {
     @Override

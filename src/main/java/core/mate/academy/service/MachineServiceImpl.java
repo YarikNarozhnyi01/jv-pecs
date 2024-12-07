@@ -1,11 +1,12 @@
 package core.mate.academy.service;
 
+import java.util.List; // Стандартні імпорти йдуть першими
+import java.util.ArrayList;
+
+import core.mate.academy.model.Machine; // Власні класи після стандартних
 import core.mate.academy.model.Bulldozer;
 import core.mate.academy.model.Excavator;
-import core.mate.academy.model.Machine;
 import core.mate.academy.model.Truck;
-
-import java.util.List;
 
 /**
  * Your implementation of MachineService.

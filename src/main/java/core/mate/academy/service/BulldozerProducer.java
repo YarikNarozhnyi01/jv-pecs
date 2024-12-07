@@ -1,9 +1,8 @@
 package core.mate.academy.service;
 
-import core.mate.academy.model.Bulldozer;
-
-import java.util.List;
-import java.util.ArrayList;
+import java.util.List; // Повинен йти перед ArrayList
+import java.util.ArrayList; // Імпорти з java.util повинні йти в правильному порядку
+import core.mate.academy.model.Bulldozer; // Ваш власний клас імпортується після стандартних
 
 public class BulldozerProducer implements MachineProducer<Bulldozer> {
     @Override
