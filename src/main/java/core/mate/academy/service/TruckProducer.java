@@ -1,9 +1,8 @@
 package core.mate.academy.service;
 
-import core.mate.academy.model.Truck;
-
-import java.util.List;
-import java.util.ArrayList;
+import java.util.List; // Імпорти з java.util повинні йти першими
+import java.util.ArrayList; // ArrayList йде після List
+import core.mate.academy.model.Truck; // Ваш клас після стандартних
 
 public class TruckProducer implements MachineProducer<Truck> {
     @Override
