@@ -1,11 +1,10 @@
 package core.mate.academy.service;
 
-import java.util.List; // Імпорти з java.util повинні йти першими
-import core.mate.academy.model.Machine; // Ваші імпорти після стандартних бібліотек
+import core.mate.academy.model.Machine;
 import core.mate.academy.model.Bulldozer;
 import core.mate.academy.model.Excavator;
 import core.mate.academy.model.Truck;
-import java.util.ArrayList; // Якщо вам потрібен ArrayList, його треба імпортувати після List
+import java.util.List;
 
 /**
  * Your implementation of MachineService.
