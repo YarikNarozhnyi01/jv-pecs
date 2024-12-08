@@ -39,7 +39,7 @@ public class MachineServiceImpl implements MachineService<Machine> {
             TruckProducer truckProducer = new TruckProducer();
             return truckProducer.get();
         }
-        return List.of(); // Повертаємо порожній список, якщо тип не підтримується
+        return List.of();
     }
 }
 
